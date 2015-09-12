@@ -5,6 +5,7 @@ echo "Installing NPM packages globally..."
 pkgs=(
   ember-cli
   bower
+  phantomjs
 )
 
 npm i -g "${pkgs[@]}"
